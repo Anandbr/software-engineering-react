@@ -5,7 +5,7 @@ const BASE_URL = "https://assignment3-fse.herokuapp.com";
 // const BASE_URL = "http://localhost:4000/api";
 // const BASE_URL = process.env.REACT_APP_BASE_URL;
 
-const SECURITY_API = `${BASE_URL}/api/auth`;
+const SECURITY_API = `${BASE_URL}/api`;
 
 const api = axios.create({
     withCredentials: true
